@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AKNO — 選ぶ理由も、選ばない理由も。ガジェット、仕事の仕組み、創作を自分の視点で考えるメディア。">
+<title>AKNO | 考えて、選んで、つくる。</title>
+<style>
+:root{color-scheme:dark;--bg:#101318;--panel:#1a1f27;--line:#343b46;--ink:#f3f4f6;--muted:#b4bdc9;--accent:#b4e1d2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.8}
+a{color:inherit}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.wrap{max-width:1050px;margin:auto;padding:0 28px}
+header{border-bottom:1px solid var(--line)}header .wrap{display:flex;justify-content:space-between;align-items:center;min-height:80px;gap:20px}
+.logo{font-size:1.45rem;font-weight:850;letter-spacing:.14em;text-decoration:none}nav{display:flex;gap:24px;flex-wrap:wrap}nav a{font-size:.88rem;color:var(--muted);text-decoration:none}nav a:hover{color:var(--ink)}
+.hero{padding:110px 0 105px}.eyebrow{color:var(--accent);font-size:.85rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.35;letter-spacing:-.05em;margin:24px 0}.hero p{max-width:640px;color:var(--muted);font-size:1.08rem}.pill{display:inline-block;margin-top:25px;border:1px solid var(--line);padding:10px 18px;border-radius:999px;text-decoration:none;font-size:.9rem}.pill:hover{border-color:var(--accent)}
+section{padding:55px 0 85px;border-top:1px solid var(--line)}h2{font-size:1.8rem;margin:8px 0 12px}.section-lead{color:var(--muted);margin:0 0 32px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px;min-height:230px}.card .number{font-size:.8rem;color:var(--accent);letter-spacing:.1em}.card h3{font-size:1.35rem;margin:24px 0 10px}.card p{color:var(--muted);font-size:.93rem;margin:0}.feature{background:linear-gradient(135deg,#1c2c2a,#1a1f27);border:1px solid #35534b;border-radius:18px;padding:35px}.feature h3{margin:8px 0;font-size:1.35rem}.feature p{color:var(--muted);max-width:720px}.small{font-size:.82rem;color:var(--muted)}footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:.83rem}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:700px){header .wrap{align-items:flex-start;flex-direction:column;padding-top:20px;padding-bottom:20px}nav{gap:16px}.hero{padding:75px 0}.cards{grid-template-columns:1fr}.card{min-height:auto}section{padding:45px 0 65px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="/">AKNO</a><nav aria-label="メインメニュー"><a href="#about">About</a><a href="#categories">Categories</a><a href="#journal">Journal</a></nav></div></header>
+<main>
+<div class="wrap hero"><div class="eyebrow">Think / Choose / Create</div><h1>考えて、選んで、<br>つくる。</h1><p>便利そう、流行っている、みんなが使っている。<br>それだけでは決めない。自分で調べ、比べ、納得して選ぶ。<br>AKNOは、その過程も楽しむための小さなメディアです。</p><a class="pill" href="#categories">AKNOについて見る ↓</a></div>
+<section id="about"><div class="wrap"><div class="eyebrow">About</div><h2>答えより、考え方を。</h2><p class="section-lead">買ったものだけでなく、買わなかった理由も。完成した仕組みだけでなく、そこに至る試行錯誤も。実体験と調査を区別しながら、判断の材料を届けます。</p></div></section>
+<section id="categories"><div class="wrap"><div class="eyebrow">Explore</div><h2>3つの領域</h2><p class="section-lead">まずはGearから。少しずつコンテンツを育てていきます。</p><div class="cards">
+<article class="card"><div class="number">01 / GEAR</div><h3>AKNO Gear</h3><p>ガジェット・家電・道具。スペックだけでなく、実際の使い方や「買わない選択」まで考える。</p></article>
+<article class="card"><div class="number">02 / WORKS</div><h3>AKNO Works</h3><p>AI、業務改善、自動化。現場の困りごとを、無理のない仕組みに変えるヒント。</p></article>
+<article class="card"><div class="number">03 / CREATIVE</div><h3>AKNO Creative</h3><p>イラストやアイデアなど、つくる楽しさを探す場所。</p></article>
+</div></div></section>
+<section id="journal"><div class="wrap"><div class="eyebrow">Journal</div><h2>記事は、これから。</h2><div class="feature"><div class="small">COMING SOON</div><h3>最初のテーマを準備中です。</h3><p>製品の比較、選ばなかった理由、日々の気づき。内容を確かめながら公開していきます。</p></div></div></section>
+</main>
+<footer><div class="wrap"><span>© <span id="year">2026</span> AKNO</span><span>Independent ideas, thoughtfully made.</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
